@@ -1,0 +1,106 @@
+{
+    "name": "Well India Racking System",
+    "established": "2013",
+    "tagline": "India's Leading Industrial Storage Rack Manufacturer",
+    "description": "Well India Racking System was incorporated in 2013, as a manufacturer of a wide range of Heavy Duty Racks, Mezzanine Floor, Display Rack, Slotted Angle Racks, Industrial Storage Rack and more. We specialize in custom warehouse and supermarket storage solutions.",
+    "contact": {
+        "proprietor": "Mr. Sandeep Choudhary",
+        "address": "Khasra No 150, Village Sobhapur, Delhi Meerut Road",
+        "city": "Muradnagar",
+        "state": "Uttar Pradesh",
+        "pincode": "201206",
+        "country": "India",
+        "phone": "+91-XXXXXXXXXX",
+        "email": "info@wellindiaracking.com",
+        "coordinates": {
+            "lat": 28.75776,
+            "lng": 77.48339
+        }
+    },
+    "whyChooseUs": [
+        {
+            "title": "Experience Since 2013",
+            "description": "Over a decade of expertise in manufacturing industrial storage solutions",
+            "icon": "award"
+        },
+        {
+            "title": "High Quality Steel",
+            "description": "Premium grade materials ensuring durability and long-lasting performance",
+            "icon": "shield"
+        },
+        {
+            "title": "Custom Manufacturing",
+            "description": "Tailored solutions designed to meet your specific storage requirements",
+            "icon": "settings"
+        },
+        {
+            "title": "PAN India Delivery",
+            "description": "Nationwide shipping and installation services across all states",
+            "icon": "truck"
+        },
+        {
+            "title": "Competitive Pricing",
+            "description": "Best value for money with transparent and affordable pricing",
+            "icon": "dollar"
+        },
+        {
+            "title": "Installation Services",
+            "description": "Professional on-site installation and support services",
+            "icon": "tool"
+        }
+    ],
+    "features": [
+        "Installation Services",
+        "Onsite Support",
+        "Large Product Line",
+        "Large Production Capacity",
+        "Distinctive and aesthetic design",
+        "Elevated quality standards",
+        "Long-lasting relationships with customers"
+    ],
+    "paymentMethods": [
+        "Cash",
+        "Credit Card",
+        "DD",
+        "Cheque"
+    ],
+    "bankDetails": "CANARA BANK",
+    "services": [
+        {
+            "id": "site-inspection",
+            "title": "Free Site Inspection",
+            "description": "Our experts visit your facility to assess your storage needs and measure the space availability for optimal planning.",
+            "icon": "inspection"
+        },
+        {
+            "id": "custom-design",
+            "title": "Custom Design Layout",
+            "description": "We create 2D/3D layouts tailored to your warehouse dimensions to maximize storage capacity and operational efficiency.",
+            "icon": "design"
+        },
+        {
+            "id": "manufacturing",
+            "title": "Precision Manufacturing",
+            "description": "State-of-the-art manufacturing using high-grade steel and automated machinery ensures durability and load bearing capacity.",
+            "icon": "manufacturing"
+        },
+        {
+            "id": "installation",
+            "title": "Professional Installation",
+            "description": "Our trained installation team ensures safe and quick assembly of racking systems with minimal disruption to your operations.",
+            "icon": "installation"
+        },
+        {
+            "id": "maintenance",
+            "title": "Maintenance & AMC",
+            "description": "Regular maintenance services and Annual Maintenance Contracts (AMC) to ensure the safety and longevity of your racks.",
+            "icon": "maintenance"
+        },
+        {
+            "id": "consultation",
+            "title": "Storage Consultation",
+            "description": "Expert advice on choosing the right storage system (Pallet, Mezzanine, Cantilever) based on your product type and inventory flow.",
+            "icon": "consultation"
+        }
+    ]
+}

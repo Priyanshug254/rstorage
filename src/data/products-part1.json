@@ -1,0 +1,748 @@
+{
+    "categories": [
+        {
+            "id": "industrial-storage-rack",
+            "name": "Industrial Storage Rack",
+            "slug": "industrial-storage-rack",
+            "description": "Heavy-duty industrial storage racks designed for warehouses and manufacturing facilities. Built with premium steel for maximum load capacity and durability.",
+            "image": "/images/categories/industrial-storage-rack.jpg",
+            "products": [
+                {
+                    "id": "industrial-storage-pallet-rack",
+                    "name": "Industrial Storage Pallet Rack",
+                    "slug": "industrial-storage-pallet-rack",
+                    "description": "High-capacity pallet storage racks for efficient warehouse organization",
+                    "shortDesc": "Heavy-duty pallet racks for industrial warehouses",
+                    "images": [
+                        "/images/products/pallet-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "High-grade steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "2000-3000 kg per level",
+                        "height": "Customizable (8ft - 30ft)",
+                        "usage": "Warehouse, Industrial"
+                    },
+                    "features": [
+                        "Adjustable beam levels",
+                        "Heavy load capacity",
+                        "Corrosion resistant",
+                        "Easy assembly"
+                    ]
+                },
+                {
+                    "id": "cantilever-industrial-storage-racks",
+                    "name": "Cantilever Industrial Storage Racks",
+                    "slug": "cantilever-industrial-storage-racks",
+                    "description": "Ideal for storing long items like pipes, lumber, and steel bars",
+                    "shortDesc": "Perfect for long and bulky items storage",
+                    "images": [
+                        "/images/products/cantilever-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "1500-2500 kg per arm",
+                        "armLength": "600mm - 1200mm",
+                        "usage": "Lumber yards, Pipe storage"
+                    },
+                    "features": [
+                        "No front column obstruction",
+                        "Easy loading/unloading",
+                        "Adjustable arms",
+                        "Heavy-duty construction"
+                    ]
+                },
+                {
+                    "id": "warehouse-storage-rack",
+                    "name": "Warehouse Storage Rack",
+                    "slug": "warehouse-storage-rack",
+                    "description": "Versatile storage solution for organized warehouse management",
+                    "shortDesc": "Complete warehouse storage solution",
+                    "images": [
+                        "/images/products/warehouse-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Cold-rolled steel",
+                        "finish": "Epoxy powder coating",
+                        "loadCapacity": "1000-2000 kg per level",
+                        "height": "6ft - 20ft",
+                        "usage": "Warehouse, Distribution centers"
+                    },
+                    "features": [
+                        "Modular design",
+                        "Easy reconfiguration",
+                        "Durable finish",
+                        "Space optimization"
+                    ]
+                },
+                {
+                    "id": "industrial-fifo-flow-storage-rack",
+                    "name": "Industrial FIFO Flow Storage Rack",
+                    "slug": "industrial-fifo-flow-storage-rack",
+                    "description": "First-in-first-out storage system for inventory rotation",
+                    "shortDesc": "FIFO system for inventory management",
+                    "images": [
+                        "/images/products/fifo-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Steel with roller tracks",
+                        "finish": "Powder coated",
+                        "loadCapacity": "500-1000 kg per lane",
+                        "lanes": "Customizable",
+                        "usage": "Food industry, Pharmaceuticals"
+                    },
+                    "features": [
+                        "Gravity flow system",
+                        "Inventory rotation",
+                        "Space efficient",
+                        "Reduced picking time"
+                    ]
+                },
+                {
+                    "id": "slotted-angle-rack",
+                    "name": "Slotted Angle Rack",
+                    "slug": "slotted-angle-rack",
+                    "description": "Flexible and economical storage solution with bolt-less assembly",
+                    "shortDesc": "Versatile bolt-less storage racks",
+                    "images": [
+                        "/images/products/slotted-angle-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS slotted angles",
+                        "finish": "Powder coated",
+                        "loadCapacity": "100-300 kg per shelf",
+                        "height": "4ft - 8ft",
+                        "usage": "Retail, Office, Warehouse"
+                    },
+                    "features": [
+                        "No welding required",
+                        "Easy to assemble",
+                        "Adjustable shelves",
+                        "Cost-effective"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "storage-rack",
+            "name": "Storage Rack",
+            "slug": "storage-rack",
+            "description": "Versatile storage racks for retail, supermarkets, and commercial spaces. Designed for optimal product display and organization.",
+            "image": "/images/categories/storage-rack.jpg",
+            "products": [
+                {
+                    "id": "pigeon-hole-storage-racks",
+                    "name": "Pigeon Hole Storage Racks",
+                    "slug": "pigeon-hole-storage-racks",
+                    "description": "Organized compartment storage for small parts and documents",
+                    "shortDesc": "Multi-compartment storage solution",
+                    "images": [
+                        "/images/products/pigeon-hole-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "compartments": "12-100 slots",
+                        "dimensions": "Customizable",
+                        "usage": "Office, Retail, Warehouse"
+                    },
+                    "features": [
+                        "Multiple compartments",
+                        "Easy categorization",
+                        "Durable construction",
+                        "Space-saving design"
+                    ]
+                },
+                {
+                    "id": "supermarket-storage-racks",
+                    "name": "Supermarket Storage Racks",
+                    "slug": "supermarket-storage-racks",
+                    "description": "Professional retail display and storage racks for supermarkets",
+                    "shortDesc": "Complete supermarket racking system",
+                    "images": [
+                        "/images/products/supermarket-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "High-grade steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "150-250 kg per shelf",
+                        "height": "5ft - 7ft",
+                        "usage": "Supermarkets, Retail stores"
+                    },
+                    "features": [
+                        "Attractive design",
+                        "Easy product access",
+                        "Adjustable shelves",
+                        "Sturdy construction"
+                    ]
+                },
+                {
+                    "id": "wall-display-racks",
+                    "name": "Wall Display Racks",
+                    "slug": "wall-display-racks",
+                    "description": "Space-saving wall-mounted display solution",
+                    "shortDesc": "Wall-mounted retail display racks",
+                    "images": [
+                        "/images/products/wall-display-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "50-100 kg per shelf",
+                        "mounting": "Wall-mounted",
+                        "usage": "Retail, Showrooms"
+                    },
+                    "features": [
+                        "Space optimization",
+                        "Easy installation",
+                        "Attractive display",
+                        "Customizable"
+                    ]
+                },
+                {
+                    "id": "slotted-angle-shelf-racks",
+                    "name": "Slotted Angle Shelf Racks",
+                    "slug": "slotted-angle-shelf-racks",
+                    "description": "Economical shelving solution with adjustable configuration",
+                    "shortDesc": "Flexible slotted angle shelving",
+                    "images": [
+                        "/images/products/slotted-shelf-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS slotted angles",
+                        "finish": "Powder coated",
+                        "loadCapacity": "100-200 kg per shelf",
+                        "shelves": "3-6 levels",
+                        "usage": "Warehouse, Retail, Office"
+                    },
+                    "features": [
+                        "Tool-free assembly",
+                        "Adjustable heights",
+                        "Cost-effective",
+                        "Durable"
+                    ]
+                },
+                {
+                    "id": "chemical-storage-rack",
+                    "name": "Chemical Storage Rack",
+                    "slug": "chemical-storage-rack",
+                    "description": "Specialized racks for safe chemical storage",
+                    "shortDesc": "Safe chemical storage solution",
+                    "images": [
+                        "/images/products/chemical-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Corrosion-resistant steel",
+                        "finish": "Special coating",
+                        "loadCapacity": "200-500 kg per shelf",
+                        "safety": "Spill containment",
+                        "usage": "Laboratories, Chemical plants"
+                    },
+                    "features": [
+                        "Corrosion resistant",
+                        "Safety compliant",
+                        "Spill containment",
+                        "Ventilated design"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "display-rack",
+            "name": "Display Rack",
+            "slug": "display-rack",
+            "description": "Professional display racks for supermarkets and retail stores. Maximize product visibility and customer engagement.",
+            "image": "/images/categories/display-rack.jpg",
+            "products": [
+                {
+                    "id": "double-side-supermarket-display-rack",
+                    "name": "Double Side Supermarket Display Rack",
+                    "slug": "double-side-supermarket-display-rack",
+                    "description": "Double-sided display for maximum product exposure",
+                    "shortDesc": "Dual-sided supermarket display",
+                    "images": [
+                        "/images/products/double-display-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "High-grade steel",
+                        "finish": "Powder coated",
+                        "sides": "Double-sided",
+                        "height": "5ft - 6.5ft",
+                        "usage": "Supermarkets, Retail"
+                    },
+                    "features": [
+                        "Double-sided display",
+                        "Adjustable shelves",
+                        "Attractive design",
+                        "High visibility"
+                    ]
+                },
+                {
+                    "id": "double-sided-supermarket-rack",
+                    "name": "Double Sided Supermarket Rack",
+                    "slug": "double-sided-supermarket-rack",
+                    "description": "Heavy-duty double-sided retail racking system",
+                    "shortDesc": "Professional retail display system",
+                    "images": [
+                        "/images/products/double-sided-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "200 kg per shelf",
+                        "configuration": "Modular",
+                        "usage": "Supermarkets, Malls"
+                    },
+                    "features": [
+                        "Modular design",
+                        "Easy assembly",
+                        "Durable finish",
+                        "Space efficient"
+                    ]
+                },
+                {
+                    "id": "double-sided-departmental-store-rack",
+                    "name": "Double Sided Departmental Store Rack",
+                    "slug": "double-sided-departmental-store-rack",
+                    "description": "Complete departmental store display solution",
+                    "shortDesc": "Full departmental store racking",
+                    "images": [
+                        "/images/products/dept-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Steel",
+                        "finish": "Powder coated",
+                        "shelves": "4-6 levels",
+                        "width": "3ft - 4ft",
+                        "usage": "Department stores"
+                    },
+                    "features": [
+                        "Professional look",
+                        "High capacity",
+                        "Customizable",
+                        "Easy maintenance"
+                    ]
+                },
+                {
+                    "id": "supermarket-display-rack",
+                    "name": "Supermarket Display Rack",
+                    "slug": "supermarket-display-rack",
+                    "description": "Standard supermarket display racking system",
+                    "shortDesc": "Essential supermarket display",
+                    "images": [
+                        "/images/products/super-display-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "150 kg per shelf",
+                        "height": "5ft - 7ft",
+                        "usage": "Supermarkets"
+                    },
+                    "features": [
+                        "Sturdy construction",
+                        "Easy product access",
+                        "Attractive finish",
+                        "Adjustable"
+                    ]
+                },
+                {
+                    "id": "pigeon-hole-rack",
+                    "name": "Pigeon Hole Rack",
+                    "slug": "pigeon-hole-rack",
+                    "description": "Multi-compartment display and storage rack",
+                    "shortDesc": "Organized compartment display",
+                    "images": [
+                        "/images/products/pigeon-display-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "compartments": "20-50 slots",
+                        "dimensions": "Customizable",
+                        "usage": "Retail, Office"
+                    },
+                    "features": [
+                        "Multiple compartments",
+                        "Organized display",
+                        "Space-saving",
+                        "Durable"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "heavy-duty-racks",
+            "name": "Heavy Duty Racks",
+            "slug": "heavy-duty-racks",
+            "description": "Extra heavy-duty racks for industrial applications. Built to handle extreme loads with superior strength and stability.",
+            "image": "/images/categories/heavy-duty-racks.jpg",
+            "products": [
+                {
+                    "id": "heavy-duty-pallet-beam-rack",
+                    "name": "Heavy Duty Pallet Beam Rack",
+                    "slug": "heavy-duty-pallet-beam-rack",
+                    "description": "Industrial-grade pallet racking with beam support",
+                    "shortDesc": "Extra heavy pallet beam system",
+                    "images": [
+                        "/images/products/hd-pallet-beam-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Heavy-gauge steel",
+                        "finish": "Industrial coating",
+                        "loadCapacity": "3000-5000 kg per level",
+                        "height": "Up to 40ft",
+                        "usage": "Heavy industry, Warehouses"
+                    },
+                    "features": [
+                        "Extreme load capacity",
+                        "Reinforced beams",
+                        "Seismic resistant",
+                        "Long-lasting"
+                    ]
+                },
+                {
+                    "id": "heavy-duty-racks-standard",
+                    "name": "Heavy Duty Racks",
+                    "slug": "heavy-duty-racks-standard",
+                    "description": "Standard heavy-duty industrial storage racks",
+                    "shortDesc": "Industrial heavy-duty storage",
+                    "images": [
+                        "/images/products/hd-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "High-tensile steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "2000-4000 kg per level",
+                        "configuration": "Customizable",
+                        "usage": "Manufacturing, Warehouses"
+                    },
+                    "features": [
+                        "High load capacity",
+                        "Robust construction",
+                        "Customizable",
+                        "Industrial-grade"
+                    ]
+                },
+                {
+                    "id": "heavy-duty-storage-racks",
+                    "name": "Heavy Duty Storage Racks",
+                    "slug": "heavy-duty-storage-racks",
+                    "description": "Heavy-duty storage solution for industrial needs",
+                    "shortDesc": "Industrial storage racks",
+                    "images": [
+                        "/images/products/hd-storage-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Epoxy coating",
+                        "loadCapacity": "2500 kg per level",
+                        "height": "8ft - 25ft",
+                        "usage": "Industrial warehouses"
+                    },
+                    "features": [
+                        "Heavy-duty design",
+                        "Corrosion resistant",
+                        "Adjustable",
+                        "Safe and secure"
+                    ]
+                },
+                {
+                    "id": "heavy-duty-industrial-storage-racks",
+                    "name": "Heavy Duty Industrial Storage Racks",
+                    "slug": "heavy-duty-industrial-storage-racks",
+                    "description": "Complete industrial storage racking system",
+                    "shortDesc": "Full industrial racking solution",
+                    "images": [
+                        "/images/products/hd-industrial-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Industrial-grade steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "3000 kg per level",
+                        "safety": "Safety pins included",
+                        "usage": "Heavy manufacturing"
+                    },
+                    "features": [
+                        "Maximum strength",
+                        "Safety features",
+                        "Modular system",
+                        "Long lifespan"
+                    ]
+                },
+                {
+                    "id": "ms-heavy-duty-racks",
+                    "name": "MS Heavy Duty Racks",
+                    "slug": "ms-heavy-duty-racks",
+                    "description": "Mild steel heavy-duty racking system",
+                    "shortDesc": "MS steel heavy-duty racks",
+                    "images": [
+                        "/images/products/ms-hd-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Mild Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "2000-3500 kg per level",
+                        "thickness": "2mm - 3mm",
+                        "usage": "Industrial, Warehouse"
+                    },
+                    "features": [
+                        "MS construction",
+                        "High strength",
+                        "Cost-effective",
+                        "Durable finish"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mezzanine-floor",
+            "name": "Mezzanine Floor",
+            "slug": "mezzanine-floor",
+            "description": "Space-efficient mezzanine flooring systems to maximize vertical storage. Double your usable space without expanding your facility.",
+            "image": "/images/categories/mezzanine-floor.jpg",
+            "products": [
+                {
+                    "id": "industrial-mezzanine-floor",
+                    "name": "Industrial Mezzanine Floor",
+                    "slug": "industrial-mezzanine-floor",
+                    "description": "Heavy-duty mezzanine flooring for industrial applications",
+                    "shortDesc": "Industrial-grade mezzanine system",
+                    "images": [
+                        "/images/products/industrial-mezz-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Steel structure",
+                        "flooring": "MS plates / Plywood",
+                        "loadCapacity": "500-1000 kg per sqm",
+                        "height": "10ft - 20ft clearance",
+                        "usage": "Warehouses, Factories"
+                    },
+                    "features": [
+                        "Space optimization",
+                        "Heavy load capacity",
+                        "Custom design",
+                        "Easy access"
+                    ]
+                },
+                {
+                    "id": "mezzanine-storage-rack",
+                    "name": "Mezzanine Storage Rack",
+                    "slug": "mezzanine-storage-rack",
+                    "description": "Combined mezzanine and storage racking system",
+                    "shortDesc": "Integrated mezzanine storage",
+                    "images": [
+                        "/images/products/mezz-storage-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Steel",
+                        "finish": "Powder coated",
+                        "levels": "2-3 levels",
+                        "loadCapacity": "300-600 kg per sqm",
+                        "usage": "Warehouses, Retail"
+                    },
+                    "features": [
+                        "Multi-level storage",
+                        "Space efficient",
+                        "Sturdy construction",
+                        "Customizable"
+                    ]
+                },
+                {
+                    "id": "modular-mezzanine-floors",
+                    "name": "Modular Mezzanine Floors",
+                    "slug": "modular-mezzanine-floors",
+                    "description": "Flexible modular mezzanine system",
+                    "shortDesc": "Modular mezzanine solution",
+                    "images": [
+                        "/images/products/modular-mezz-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Steel framework",
+                        "flooring": "Checkered plates",
+                        "assembly": "Bolt-together",
+                        "loadCapacity": "400-800 kg per sqm",
+                        "usage": "Warehouses, Offices"
+                    },
+                    "features": [
+                        "Modular design",
+                        "Easy installation",
+                        "Relocatable",
+                        "Cost-effective"
+                    ]
+                },
+                {
+                    "id": "warehouse-mezzanine-floor",
+                    "name": "Warehouse Mezzanine Floor",
+                    "slug": "warehouse-mezzanine-floor",
+                    "description": "Complete warehouse mezzanine flooring system",
+                    "shortDesc": "Full warehouse mezzanine",
+                    "images": [
+                        "/images/products/warehouse-mezz-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Heavy-gauge steel",
+                        "flooring": "Industrial-grade",
+                        "loadCapacity": "600-1200 kg per sqm",
+                        "stairs": "Included",
+                        "usage": "Large warehouses"
+                    },
+                    "features": [
+                        "Maximum space utilization",
+                        "Heavy-duty",
+                        "Safety railings",
+                        "Professional finish"
+                    ]
+                },
+                {
+                    "id": "slotted-angle-mezzanine-floor",
+                    "name": "Slotted Angle Mezzanine Floor",
+                    "slug": "slotted-angle-mezzanine-floor",
+                    "description": "Economical slotted angle mezzanine system",
+                    "shortDesc": "Budget-friendly mezzanine",
+                    "images": [
+                        "/images/products/slotted-mezz-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Slotted angles",
+                        "flooring": "Plywood / MS sheets",
+                        "loadCapacity": "200-400 kg per sqm",
+                        "assembly": "Bolt-less",
+                        "usage": "Small warehouses, Offices"
+                    },
+                    "features": [
+                        "Economical",
+                        "Easy assembly",
+                        "Lightweight",
+                        "Flexible design"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pallet-rack",
+            "name": "Pallet Rack",
+            "slug": "pallet-rack",
+            "description": "Professional pallet racking systems for efficient warehouse management. Optimize your storage with our versatile pallet solutions.",
+            "image": "/images/categories/pallet-rack.jpg",
+            "products": [
+                {
+                    "id": "heavy-duty-pallet-rack",
+                    "name": "Heavy Duty Pallet Rack",
+                    "slug": "heavy-duty-pallet-rack",
+                    "description": "Industrial pallet racking for heavy loads",
+                    "shortDesc": "Heavy-duty pallet storage",
+                    "images": [
+                        "/images/products/hd-pallet-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "High-grade steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "2500-4000 kg per level",
+                        "palletSize": "Standard / Euro pallets",
+                        "usage": "Warehouses, Distribution"
+                    },
+                    "features": [
+                        "High load capacity",
+                        "Adjustable beams",
+                        "Forklift accessible",
+                        "Durable"
+                    ]
+                },
+                {
+                    "id": "heavy-duty-steel-rack",
+                    "name": "Heavy Duty Steel Rack",
+                    "slug": "heavy-duty-steel-rack",
+                    "description": "All-steel heavy-duty racking system",
+                    "shortDesc": "Steel pallet racking",
+                    "images": [
+                        "/images/products/steel-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "100% steel",
+                        "finish": "Industrial coating",
+                        "loadCapacity": "3000 kg per level",
+                        "configuration": "Selective",
+                        "usage": "Heavy industry"
+                    },
+                    "features": [
+                        "All-steel construction",
+                        "Maximum strength",
+                        "Corrosion resistant",
+                        "Long-lasting"
+                    ]
+                },
+                {
+                    "id": "drive-in-racking-system",
+                    "name": "Drive In Racking System",
+                    "slug": "drive-in-racking-system",
+                    "description": "High-density drive-in pallet racking",
+                    "shortDesc": "Drive-in storage system",
+                    "images": [
+                        "/images/products/drive-in-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Heavy-gauge steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "1500-2500 kg per pallet",
+                        "depth": "Multiple pallets deep",
+                        "usage": "Cold storage, Warehouses"
+                    },
+                    "features": [
+                        "High-density storage",
+                        "LIFO system",
+                        "Space efficient",
+                        "Forklift accessible"
+                    ]
+                },
+                {
+                    "id": "light-duty-storage-rack",
+                    "name": "Light Duty Storage Rack",
+                    "slug": "light-duty-storage-rack",
+                    "description": "Light-duty racking for smaller items",
+                    "shortDesc": "Light-duty storage solution",
+                    "images": [
+                        "/images/products/light-duty-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "MS Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "100-300 kg per shelf",
+                        "height": "5ft - 8ft",
+                        "usage": "Retail, Office, Light warehouse"
+                    },
+                    "features": [
+                        "Lightweight design",
+                        "Easy assembly",
+                        "Cost-effective",
+                        "Adjustable shelves"
+                    ]
+                },
+                {
+                    "id": "die-racks-ms",
+                    "name": "Die Racks MS",
+                    "slug": "die-racks-ms",
+                    "description": "Specialized racks for die and mold storage",
+                    "shortDesc": "Die and mold storage racks",
+                    "images": [
+                        "/images/products/die-rack-1.jpg"
+                    ],
+                    "specifications": {
+                        "material": "Mild Steel",
+                        "finish": "Powder coated",
+                        "loadCapacity": "500-1500 kg per drawer",
+                        "drawers": "Pull-out design",
+                        "usage": "Manufacturing, Tool rooms"
+                    },
+                    "features": [
+                        "Pull-out drawers",
+                        "Heavy-duty slides",
+                        "Organized storage",
+                        "Space-saving"
+                    ]
+                }
+            ]
+        }
+    ]
+}
