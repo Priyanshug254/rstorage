@@ -14,12 +14,11 @@ const TRUST_BADGES = [
 
 export default function AboutSection() {
     return (
-        <section className="relative bg-primary-950 pt-24 pb-24 overflow-hidden" id="about">
-            {/* Background Elements */}
-            <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-primary-900 to-transparent opacity-50"></div>
-            <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-accent-500/50 to-transparent"></div>
+        <section className="relative bg-white pt-24 pb-24 overflow-hidden" id="about">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 industrial-grid opacity-5 pointer-events-none"></div>
 
-            <div className="container mx-auto px-4 relative z-10">
+            <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
                     {/* Left Content */}
@@ -30,36 +29,38 @@ export default function AboutSection() {
                         whileInView="visible"
                         viewport={{ once: true }}
                     >
-                        <motion.div variants={fadeInUp} className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-900/50 border border-primary-700 text-accent-400 text-sm font-semibold tracking-wide uppercase backdrop-blur-sm">
-                            <span className="w-2 h-2 rounded-full bg-accent-500 animate-pulse"></span>
-                            Since 2013
+                        <motion.div variants={fadeInUp} className="mb-6 inline-flex items-center gap-2 px-4 py-1 rounded-full bg-primary-100 border border-primary-200 text-accent-800 text-sm font-bold tracking-wide uppercase">
+                            Leading Manufacturer Since 2013
                         </motion.div>
 
                         <motion.h2
                             variants={fadeInUp}
-                            className="text-4xl md:text-5xl font-bold text-white leading-[1.1] mb-6 tracking-tight"
+                            className="text-4xl md:text-6xl font-black text-accent-950 leading-[1.1] mb-8 tracking-tighter font-display"
                         >
-                            Transforming Industrial Spaces with <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-600">Intelligent Racking</span>
+                            Optimizing Your <br />
+                            <span className="text-industrial-500 italic">Operational Core</span>
                         </motion.h2>
 
                         <motion.p
                             variants={fadeInUp}
-                            className="text-lg text-primary-200 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light"
+                            className="text-lg text-primary-600 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-normal"
                         >
-                            Well India Racking System specializes in manufacturing high-quality heavy-duty racks, mezzanine floors, and display units. We don't just sell steel; we optimize your operational efficiency.
+                            Well India Racking System specializes in manufacturing high-quality heavy-duty racks,
+                            mezzanine floors, and premium display units. We prioritize safety,
+                            durability, and space efficiency in every system we engineer.
                         </motion.p>
 
                         <motion.div
                             variants={fadeInUp}
-                            className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
+                            className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start mb-12"
                         >
                             <Link href="/about">
-                                <Button size="lg" variant="primary" className="bg-white text-primary-950 hover:bg-neutral-200 shadow-[0_0_20px_rgba(255,255,255,0.3)] border-none">
+                                <Button size="lg" className="min-w-[200px] rounded-full bg-accent-900">
                                     Our Story
                                 </Button>
                             </Link>
                             <Link href="/contact">
-                                <Button size="lg" variant="outline" className="border-primary-700 text-primary-200 hover:bg-primary-800 hover:text-white hover:border-white/50">
+                                <Button size="lg" variant="outline" className="min-w-[200px] rounded-full">
                                     Contact Us
                                 </Button>
                             </Link>
@@ -68,11 +69,11 @@ export default function AboutSection() {
                         {/* Trust Badges */}
                         <motion.div
                             variants={fadeInUp}
-                            className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-left border-t border-primary-800 pt-8"
+                            className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-left border-t border-primary-100 pt-10"
                         >
                             {TRUST_BADGES.map((badge, idx) => (
-                                <div key={idx} className="flex items-center gap-3 text-primary-100 font-medium">
-                                    <div className="w-10 h-10 rounded-full bg-primary-800/50 flex items-center justify-center text-accent-400 border border-primary-700">
+                                <div key={idx} className="flex items-center gap-3 text-primary-700 font-semibold">
+                                    <div className="w-10 h-10 rounded-lg bg-accent-50 flex items-center justify-center text-accent-800 border border-accent-100 shadow-sm">
                                         <badge.icon className="text-xl" />
                                     </div>
                                     <span className="text-sm leading-tight">{badge.text}</span>
@@ -89,33 +90,35 @@ export default function AboutSection() {
                         whileInView="visible"
                         viewport={{ once: true }}
                     >
-                        <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/5 group">
-                            <div className="absolute inset-0 bg-accent-500/10 z-10 mix-blend-overlay"></div>
-                            <div className="aspect-[4/3] bg-primary-900 relative">
-                                {/* Placeholder Gradient */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-primary-800 to-primary-900 flex items-center justify-center">
-                                    <span className="text-primary-700 font-bold uppercase tracking-widest text-2xl">About Us Image</span>
-                                </div>
-                                <img
-                                    src="/images/hero-warehouse.jpg"
-                                    alt="Industrial Warehouse Storage"
-                                    className="object-cover w-full h-full opacity-0 group-hover:scale-105 transition-transform duration-700 grayscale group-hover:grayscale-0"
-                                    onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
-                                />
-                            </div>
+                        <div className="relative">
+                            {/* Decorative Frame */}
+                            <div className="absolute -top-4 -right-4 w-48 h-48 border-t-2 border-r-2 border-industrial-200 -z-10"></div>
+                            <div className="absolute -bottom-4 -left-4 w-48 h-48 border-b-2 border-l-2 border-accent-200 -z-10"></div>
 
-                            {/* Floating Stats Card */}
-                            <motion.div
-                                variants={slideRight}
-                                className="absolute -bottom-6 -left-6 z-20 glass-dark p-6 rounded-xl border border-accent-500/30 hidden md:block"
-                            >
-                                <div className="flex items-center gap-4">
-                                    <div className="text-left">
-                                        <div className="text-4xl font-bold text-white leading-none mb-1 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">500+</div>
-                                        <div className="text-xs text-accent-400 font-bold uppercase tracking-wider">Projects Completed</div>
+                            <div className="rounded-lg overflow-hidden shadow-industrial border border-primary-100 group relative">
+                                <div className="aspect-[4/3] bg-primary-50 relative">
+                                    <div className="absolute inset-0 bg-accent-800/10 z-10 mix-blend-overlay"></div>
+                                    <img
+                                        src="/images/hero-warehouse.jpg"
+                                        alt="Industrial Racking Systems"
+                                        className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700"
+                                    />
+                                </div>
+
+                                {/* Professional Stat Overlay */}
+                                <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-accent-950/90 to-transparent z-20">
+                                    <div className="flex items-end justify-between">
+                                        <div>
+                                            <div className="text-4xl font-bold text-white mb-1">10+</div>
+                                            <div className="text-xs text-white/70 font-bold uppercase tracking-widest">Years Industry Expertise</div>
+                                        </div>
+                                        <div className="text-right">
+                                            <div className="text-4xl font-bold text-industrial-400 mb-1">500+</div>
+                                            <div className="text-xs text-white/70 font-bold uppercase tracking-widest">Clients Nationwide</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </motion.div>
+                            </div>
                         </div>
                     </motion.div>
                 </div>
