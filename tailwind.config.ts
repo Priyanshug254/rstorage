@@ -9,50 +9,46 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Primary Colors - Deep Zinc/Slate (Backgrounds & Base)
+        // Primary Colors - Professional Navy & Slate
         primary: {
           50: '#f8fafc',
           100: '#f1f5f9',
-          200: '#e2e8f0', // Text-light
-          300: '#cbd5e1', // Text-muted
+          200: '#e2e8f0',
+          300: '#cbd5e1',
           400: '#94a3b8',
           500: '#64748b',
           600: '#475569',
-          700: '#334155', // Card bg
-          800: '#1e293b', // Dark Card bg
-          900: '#0f172a', // Main Background
-          950: '#020617', // Deepest Background
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+          950: '#020617',
         },
-        // Accent Colors - Electric Cyan/Blue (Highlights)
+        // Brand/Accent Colors - Industrial Navy & Safety Orange
         accent: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8', // Bright Cyan
-          500: '#0ea5e9', // Primary Brand Color
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#1d4ed8', // Professional Navy Blue
+          600: '#1e40af',
+          700: '#1e3a8a',
+          800: '#1e3a8a',
+          900: '#172554',
+          950: '#020617',
         },
-        // Secondary Accent - Neon Purple (For gradients/depth)
-        secondary: {
-          500: '#6366f1', // Indigo
-          600: '#4f46e5',
-        },
-        // Neutral Colors (Silver/Metal)
-        neutral: {
-          50: '#fafafa',
-          100: '#f4f4f5',
-          200: '#e4e4e7',
-          300: '#d4d4d8',
-          400: '#a1a1aa', // Metal Gray
-          500: '#71717a',
-          600: '#52525b',
-          700: '#3f3f46',
-          800: '#27272a',
-          900: '#18181b', // Almost Black
+        // Secondary/Safety Accent - Industrial Orange
+        industrial: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316', // Safety Orange
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
         },
       },
       fontFamily: {
@@ -60,7 +56,7 @@ const config: Config = {
         display: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
       },
       fontSize: {
-        'hero': ['4.5rem', { lineHeight: '1.1', fontWeight: '700' }],
+        'hero': ['4.5rem', { lineHeight: '1.1', fontWeight: '800' }],
         'display': ['3.5rem', { lineHeight: '1.2', fontWeight: '700' }],
         'h1': ['3rem', { lineHeight: '1.2', fontWeight: '700' }],
         'h2': ['2.25rem', { lineHeight: '1.3', fontWeight: '600' }],
@@ -68,17 +64,15 @@ const config: Config = {
         'h4': ['1.5rem', { lineHeight: '1.4', fontWeight: '600' }],
       },
       borderRadius: {
-        'card': '16px',
-        'button': '12px',
-        'input': '10px',
+        'card': '8px', // Sharper corners for industrial feel
+        'button': '4px',
+        'input': '4px',
       },
       boxShadow: {
-        'soft': '0 2px 15px rgba(0, 0, 0, 0.2)',
-        'medium': '0 4px 25px rgba(0, 0, 0, 0.4)',
-        'hard': '0 10px 40px rgba(0, 0, 0, 0.6)',
-        'glow': '0 0 20px rgba(14, 165, 233, 0.3)', // Cyan glow
-        'glow-lg': '0 0 40px rgba(14, 165, 233, 0.4)',
-        'neon': '0 0 5px rgba(56, 189, 248, 0.5), 0 0 20px rgba(56, 189, 248, 0.3)',
+        'soft': '0 1px 3px rgba(0, 0, 0, 0.1)',
+        'medium': '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+        'hard': '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+        'industrial': '0 20px 25px -5px rgba(0, 0, 0, 0.1)',
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',
