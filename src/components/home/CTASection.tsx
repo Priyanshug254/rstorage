@@ -7,54 +7,67 @@ import { IoCheckmarkCircle } from 'react-icons/io5';
 
 export default function CTASection() {
     return (
-        <section className="py-24 relative overflow-hidden border-t border-accent-500/30">
-            {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-900 to-accent-900 opacity-90"></div>
-            <div className="absolute inset-0 industrial-grid opacity-10 mix-blend-overlay"></div>
+        <section className="py-24 relative overflow-hidden bg-accent-950">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 industrial-grid opacity-10 pointer-events-none"></div>
 
-            {/* Content */}
-            <div className="container mx-auto px-4 relative z-10">
+            {/* Professional Background Elements */}
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-accent-900/50 to-transparent"></div>
+
+            <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-10 text-center">
                 <motion.div
-                    className="max-w-4xl mx-auto text-center"
+                    className="max-w-4xl mx-auto"
                     variants={fadeInUp}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-8 tracking-tight">
-                        Ready to Optimize Your Space?
+                    <div className="inline-block mb-6 px-4 py-1 rounded-full bg-industrial-500/10 border border-industrial-500/30 text-industrial-400 text-sm font-bold tracking-widest uppercase">
+                        Consultation & Design
+                    </div>
+
+                    <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-black text-white mb-8 tracking-tighter leading-[1.1]">
+                        Architecting <span className="text-industrial-500">Industry Excellence.</span>
                     </h2>
-                    <p className="text-xl text-primary-200 mb-10 max-w-2xl mx-auto font-light">
-                        Our experts will visit your facility, assess your storage needs, and provide detailed CAD drawings and load calculations.
+
+                    <p className="text-xl text-primary-100 mb-12 max-w-2xl mx-auto font-normal opacity-90">
+                        Our engineering team provides comprehensive site assessments, custom CAD layouts,
+                        and precise load calculations for every project.
                     </p>
 
                     {/* Benefits */}
-                    <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12">
+                    <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-12">
                         {[
-                            'Free Site Visit',
-                            'Custom Design',
-                            'Competitive Pricing'
+                            'Free Technical Audit',
+                            'Custom CAD & Layouts',
+                            'Safety Certifications',
+                            'Turnkey Installation'
                         ].map((benefit) => (
-                            <div key={benefit} className="flex items-center space-x-2 text-white bg-white/10 px-4 py-2 rounded-full border border-white/10 backdrop-blur-sm">
-                                <IoCheckmarkCircle size={20} className="text-accent-400" />
-                                <span className="font-medium">{benefit}</span>
+                            <div key={benefit} className="flex items-center space-x-3 text-white bg-accent-900/40 backdrop-blur-sm px-6 py-3 rounded-card border border-accent-800/50 shadow-lg">
+                                <IoCheckmarkCircle size={22} className="text-industrial-500" />
+                                <span className="font-bold text-xs uppercase tracking-wider">{benefit}</span>
                             </div>
                         ))}
                     </div>
 
-                    <Button
-                        variant="primary"
-                        size="lg"
-                        className="bg-accent-600 hover:bg-accent-500 text-white shadow-glow-lg border-none text-lg h-14 px-8"
-                    >
-                        Request Free Inspection
-                    </Button>
+                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <Button
+                            variant="primary"
+                            size="lg"
+                            className="bg-industrial-500 hover:bg-industrial-600 text-white min-w-[240px] h-14 text-lg"
+                        >
+                            Schedule Free Inspection
+                        </Button>
+                        <Button
+                            variant="outline"
+                            size="lg"
+                            className="border-white text-white hover:bg-white hover:text-accent-950 min-w-[240px] h-14 text-lg"
+                        >
+                            Download Catalogue
+                        </Button>
+                    </div>
                 </motion.div>
             </div>
-
-            {/* Decorative Elements */}
-            <div className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] bg-accent-500/20 rounded-full blur-[100px] animate-pulse"></div>
-            <div className="absolute bottom-[-20%] left-[-10%] w-[500px] h-[500px] bg-secondary-500/20 rounded-full blur-[100px]"></div>
         </section>
     );
 }
