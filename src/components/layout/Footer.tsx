@@ -137,8 +137,8 @@ export default function Footer() {
             </div>
 
             {/* Bottom Bar */}
-            <div className="border-t border-accent-900 bg-accent-950/50">
-                <div className="container mx-auto px-6 md:px-12 py-8">
+            <div className="border-t border-accent-900/30 bg-accent-950">
+                <div className="container mx-auto px-6 md:px-12 py-10">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-primary-500 text-xs font-bold uppercase tracking-widest">
                             © {currentYear} Well India Racking System. All rights reserved.

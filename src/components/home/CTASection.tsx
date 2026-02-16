@@ -7,12 +7,16 @@ import { IoCheckmarkCircle } from 'react-icons/io5';
 
 export default function CTASection() {
     return (
-        <section className="py-24 relative overflow-hidden bg-accent-950">
-            {/* Background Pattern */}
-            <div className="absolute inset-0 industrial-grid opacity-10 pointer-events-none"></div>
+        <section className="py-32 relative overflow-hidden bg-accent-950">
+            {/* Background Texture & Spotlight */}
+            <div className="absolute inset-0 z-0">
+                <div className="absolute inset-0 industrial-grid opacity-[0.15]"></div>
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(30,58,138,0.3)_0%,transparent_70%)]"></div>
+                <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/40 to-transparent"></div>
+            </div>
 
             {/* Professional Background Elements */}
-            <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-accent-900/50 to-transparent"></div>
+            <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-accent-900/40 via-transparent to-transparent"></div>
 
             <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-10 text-center">
                 <motion.div
