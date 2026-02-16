@@ -18,12 +18,11 @@ const iconMap: Record<string, IconType> = {
 
 export default function WhyChooseUs() {
     return (
-        <section className="py-24 bg-primary-950 relative overflow-hidden">
-            {/* Background Effects */}
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-900 via-primary-950 to-black opacity-80"></div>
+        <section className="py-24 bg-white relative overflow-hidden" id="features">
+            {/* Background Pattern */}
             <div className="absolute inset-0 industrial-grid opacity-5 pointer-events-none"></div>
 
-            <div className="container mx-auto px-4 relative z-10">
+            <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-10">
                 {/* Section Header */}
                 <motion.div
                     className="text-center mb-16"
@@ -32,14 +31,15 @@ export default function WhyChooseUs() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <div className="inline-block mb-4 px-4 py-1 rounded-full bg-primary-800 border border-primary-700 text-primary-200 text-sm font-semibold tracking-widest uppercase">
+                    <div className="inline-block mb-4 px-4 py-1 rounded-full bg-primary-50 border border-primary-100 text-accent-700 text-sm font-bold tracking-widest uppercase">
                         The Well India Advantage
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        Why Choose Us?
+                    <h2 className="text-4xl md:text-6xl font-black text-accent-950 mb-6 font-display tracking-tight">
+                        The Advantage <span className="text-industrial-500 cursor-default uppercase text-sm tracking-[0.4em] block mt-2 opacity-50">Industrial Grade</span>
                     </h2>
-                    <p className="text-lg text-primary-300 max-w-2xl mx-auto leading-relaxed font-light">
-                        We deliver excellence through quality products, expert service, and customer satisfaction
+                    <p className="text-lg text-primary-600 max-w-2xl mx-auto leading-relaxed font-normal">
+                        We deliver industrial excellence through certified quality,
+                        innovative design, and end-to-end operational support.
                     </p>
                 </motion.div>
 
@@ -56,14 +56,15 @@ export default function WhyChooseUs() {
 
                         return (
                             <motion.div key={index} variants={staggerItem}>
-                                <div className="glass-dark p-8 h-full rounded-2xl border-t border-white/10 hover:border-accent-500/50 hover:shadow-glow transition-all duration-300 group hover:-translate-y-2">
-                                    <div className="w-16 h-16 bg-primary-900/50 border border-primary-700 text-accent-400 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent-500 group-hover:text-white group-hover:border-accent-400 transition-colors duration-300 shadow-soft">
+                                <div className="bg-white p-10 h-full rounded-xl border border-primary-100 hover:border-accent-200 shadow-medium hover:shadow-industrial transition-all duration-500 group hover:-translate-y-3 relative overflow-hidden">
+                                    <div className="absolute top-0 left-0 w-1 h-full bg-accent-700 scale-y-0 group-hover:scale-y-100 transition-transform origin-top duration-500"></div>
+                                    <div className="w-16 h-16 bg-accent-50 text-accent-700 rounded-xl flex items-center justify-center mb-8 group-hover:bg-accent-700 group-hover:text-white transition-all duration-500 shadow-sm border border-accent-100">
                                         <Icon size={32} />
                                     </div>
-                                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-accent-400 transition-colors">
+                                    <h3 className="text-2xl font-black text-accent-950 mb-4 group-hover:text-accent-700 transition-colors font-display tracking-tight">
                                         {feature.title}
                                     </h3>
-                                    <p className="text-primary-300 leading-relaxed text-sm">
+                                    <p className="text-primary-700 leading-relaxed text-sm font-bold opacity-80">
                                         {feature.description}
                                     </p>
                                 </div>
